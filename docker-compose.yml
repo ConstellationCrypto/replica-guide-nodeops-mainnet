@@ -5,7 +5,7 @@ volumes:
 
 services:
   l2:
-    image: offchainlabs/nitro-node:v3.5.2-33d30c0
+    image: 001138754299.dkr.ecr.us-west-2.amazonaws.com/nitro-node:v3.6.7-a7c9f1e
     platform: linux/amd64
     ports:
       - "8545:8545"
