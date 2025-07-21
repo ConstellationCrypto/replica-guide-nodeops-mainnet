@@ -5,7 +5,7 @@ volumes:
 
 services:
   l2:
-    image: public.ecr.aws/i6b2w2n6/nitro-node:v3.2.1-d81324d
+    image: offchainlabs/nitro-node:v3.5.2-33d30c0
     platform: linux/amd64
     ports:
       - "8545:8545"
